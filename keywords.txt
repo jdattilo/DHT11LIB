@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For DHT11
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+dht11	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+attach	KEYWORD2
+read	KEYWORD2
+humidity	KEYWORD2
+temperature	KEYWORD2
+fahrenheit	KEYWORD2
+kelvin	KEYWORD2
+celcius	KEYWORD2
+dewPoint	KEYWORD2
+dewPointFast	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
