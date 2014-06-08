@@ -38,7 +38,11 @@
 #ifndef dht11_h
 #define dht11_h
 
-#include "WProgram.h"
+#if defined(ARDUINO) && ARDUINO >= 100
+    #include "Arduino.h"
+#else
+    #include "WProgram.h"
+#endif
 
 #define DHT11LIB_VERSION "0.4.5"
 
