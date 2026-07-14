@@ -42,6 +42,11 @@ void loop() {
 - `temperature`, `humidity` — last reading (°C, %RH)
 - `celcius()`, `fahrenheit()`, `kelvin()`, `dewPoint()`, `dewPointFast()` — conversions/derived values
 
+## Full write-up
+
+The original pinout, single-wire protocol, wiring, and the story behind this
+library: **[josephdattilo.com/open-source/dht11/](https://josephdattilo.com/open-source/dht11/)**.
+
 ## Credits & license
 
 Licensed under **GPL-3.0**. Maintained and extended by **Joseph Dattilo** (Virtuabotix LLC) — versions 0.4.0 and 0.4.5 — building on earlier work by George Hadjikyriacou (original), SimKard, and Rob Tillaart. Please preserve this attribution chain when redistributing.
